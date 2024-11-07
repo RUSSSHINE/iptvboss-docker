@@ -1,7 +1,7 @@
 version: "2.1"
 services:
   iptvboss:
-    image: ghcr.io/groenator/iptvboss-docker:latest
+    image: ghcr.io/russshine/iptvboss-docker:latest
     devices:
       - /dev/snd:/dev/snd # Required for audio support
     environment:
